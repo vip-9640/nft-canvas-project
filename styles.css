@@ -5,7 +5,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
+    height: 650px;
 }
 
 .app-container {
@@ -15,7 +15,6 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(236, 235, 235, 0.26);
     text-align: center;
-    max-height: 2000px;
 }
 
 .header {
