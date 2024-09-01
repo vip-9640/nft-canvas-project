@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DSCVR Streak NFT Minting</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Indicates that the application is a Canvas -->
+    <meta name="dscvr:canvas:version" content="vNext" />
+    <!-- Open Graph Image for previewing the Canvas -->
+    <meta name="og:image" content="https://my-canvas.com/preview-image.png" />
     <div class="app-container">
-        <div class="header">
-            <button id="connect-wallet" class="connect-wallet-btn">Connect Wallet</button>
+      <div class="header">
+        <button id="connect-wallet" class="connect-wallet-btn">
+          Connect Wallet
+        </button>
+      </div>
+      <div class="content">
+        <p>Your DSCVR streak: <span id="streak-value">0</span></p>
+        <div class="nft-box">
+          <img id="nft-image" src="nft_blur.png" alt="NFT Image" />
+          <button id="reveal-nft" class="action-btn">
+            Click to Reveal NFT
+          </button>
         </div>
-        <div class="content">
-            <p>Your DSCVR streak: <span id="streak-value">0</span></p>
-            <div class="nft-box">
-                <img id="nft-image" src="nft_blur.png" alt="NFT Image">
-                <button id="reveal-nft" class="action-btn">Click to Reveal NFT</button>
-            </div>
-            <button id="mint-nft" class="action-btn">Mint</button>
-        </div>
+        <button id="mint-nft" class="action-btn">Mint</button>
+      </div>
     </div>
     <!-- Include Solana Web3.js library -->
     <script src="https://unpkg.com/@solana/web3.js@1.33.0/lib/index.iife.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
