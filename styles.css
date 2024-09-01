@@ -1,0 +1,83 @@
+body {
+    background-color: #0C0F14;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    text-transform: uppercase;
+}
+
+.app-container {
+    max-width: 500px;
+    background-color: #0C0F14;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(236, 235, 235, 0.26);
+    text-align: center;
+    max-height: 2000px;
+}
+
+.header {
+    position: relative;
+}
+
+p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 60px;
+}
+
+.connect-wallet-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #0c1e85;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+.connect-wallet-btn:hover {
+    background-color: #1736e6;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.nft-box {
+    margin: 20px 0;
+    position: relative;
+}
+
+.nft-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 254, 254, 0.438);
+}
+
+.action-btn {
+    background-color: #0c1e85;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.action-btn:hover {
+    background-color: #1736e6;
+    
+}
