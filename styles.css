@@ -9,11 +9,11 @@ body {
 }
 
 .app-container {
-    width: 500px;
+    width: 350px;
     background-color: #0C0F14;
-    padding: 20px;
+    padding: 15px;
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(236, 235, 235, 0.26);
+    box-shadow: 0 4px 8px rgba(236, 235, 235, 0.192);
     text-align: center;
 }
 
