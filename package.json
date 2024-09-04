@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@dscvr-one/canvas-client-sdk": "^1.1.1",
+    "@dscvr-one/canvas-wallet-adapter": "^1.0.2",
+    "@solana/wallet-adapter-vue": "^0.4.5",
+    "solana-wallets-vue": "^0.6.1"
+  }
+}
